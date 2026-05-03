@@ -107,11 +107,6 @@ The built-in AI assistant uses a **keyword-matching knowledge base** with topics
 
 ---
 
-## 📷 Screenshots
-
-> *(Add screenshots of your app here after deployment)*
-
----
 
 ## 👨‍💻 Author
 
