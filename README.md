@@ -7,8 +7,7 @@ An interactive, educational web application that guides users through the comple
 ## 🌐 Live Demo
 
 > Deployed on Google Cloud Run:  
-> **[https://election-assistant-xxxxxxxx-uc.a.run.app](https://election-assistant-xxxxxxxx-uc.a.run.app)**  
-> *(Replace with your actual Cloud Run URL after deployment)*
+> **[https://election-assistant-xxxxxxxx-uc.a.run.app](https://election-assistant-300702094823.us-central1.run.app)** 
 
 ---
 
