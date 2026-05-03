@@ -46,52 +46,6 @@ election-assistant/
 └── README.md        # Project documentation
 ```
 
----
-
-## 🚀 Deployment (Google Cloud Run)
-
-### Prerequisites
-- [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) installed
-- A Google Cloud project with billing enabled
-
-### Steps
-
-```bash
-# 1. Authenticate
-gcloud auth login
-
-# 2. Set your project
-gcloud config set project bamboo-drive-495208-q0
-
-# 3. Enable required APIs
-gcloud services enable run.googleapis.com cloudbuild.googleapis.com
-
-# 4. Deploy from source
-gcloud run deploy election-assistant \
-  --source . \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated
-```
-
-After deployment, you'll receive a **Cloud Run URL** — use that as your deployed link.
-
----
-
-## 💻 Run Locally
-
-No build step needed — just open in a browser:
-
-```bash
-# Option 1: Open directly
-start index.html
-
-# Option 2: Use VS Code Live Server extension
-# Right-click index.html → "Open with Live Server"
-```
-
----
-
 ## 🧩 How the Assistant Works
 
 The built-in AI assistant uses a **keyword-matching knowledge base** with topics including:
